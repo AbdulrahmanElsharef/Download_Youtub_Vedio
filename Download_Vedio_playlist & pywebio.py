@@ -7,7 +7,7 @@ from pywebio.output import *
 
 def video_download_playlist():
     while True:
-        SAVE_PATH = (r"F:\\Download\\youtup")  # pasth to save videos
+        SAVE_PATH = (r"E:\\download")  # pasth to save videos
         # link of the video to be downloaded
         videos_links = input("Enter YouTube_Playlist links please: ".title())
         # put all links into playlist funcion

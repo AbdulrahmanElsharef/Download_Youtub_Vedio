@@ -17,7 +17,7 @@ def video_download():
             # link of the video to be downloaded
             video = video_url.streams.get_highest_resolution()
             # resolution passed in the get() function
-            path_to_download_folder = (r"F:\Download")
+            path_to_download_folder = (r"E:\\download")
             # where to save
             video.download(path_to_download_folder)
             # downloading the video
